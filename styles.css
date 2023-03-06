@@ -1,1 +1,136 @@
 /* Write your CSS here! */
+body{
+    background-color:cyan ;
+    font-size: 14;
+    font-weight: 300;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+    padding: 0px;
+    overflow:auto;
+}
+
+header{
+    background-color: crimson;
+    height: auto;
+    padding: 0x;
+    margin: auto;
+}
+
+main{
+    width: 100%;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+footer{
+    color: whitesmoke;
+    background-color: darkslategray;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+h1{
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+h2{
+    font-family: Cambria;
+    font-weight: 700;
+    text-align: center;
+}   
+
+h3{
+    font-family: cursive ;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:darkblue;
+    margin: 5px;
+}
+
+hr{
+    height: .6rem;
+    background-color: lawngreen;
+    border: none;
+    margin: 20px 0px 10px;
+}
+a{
+    color: blue;
+    font-weight: 700;
+    font-size: 14;
+    text-decoration: none;
+}
+a:hover{
+    color: black !important;
+}
+a:visited{
+    color: brown;
+}
+
+p{
+    text-align:center;
+    font-size: 18px;
+    margin: 20px;
+}
+.pic {
+    position: relative;
+    margin:auto;
+    width: 350px;
+    max-height: 450px;
+    border-color: black;
+    border-width: 2rem;
+    margin: 50px 650px 50px;
+}
+
+.craft{
+    max-height: 450px;
+}
+
+
+#page-title{
+    color: blue;
+    border: none;
+    text-align:center;
+    margin: 20px 0px 0px;
+}
+
+#tagline{
+    color: gainsboro;
+    text-align: center;
+    margin: 20px 0px 0px;
+}
+
+#intro{
+    font-style: italic;
+    text-align: center;
+}
+#why{
+    font-style: italic;
+    text-align: center;
+}
+
+.right{
+    float: inline-start;
+}
+.slideShow{
+    
+    box-sizing: border-box;
+    max-width: 5000px;
+    position:relative ;
+    transform: (-70%, 60%);
+    top: 0px;
+    left: 10px;
+    border: 10px solid black;
+    border-radius: 4px;
+    margin: 50px 100px 50px;
+    
+    
+
+
+}
+
