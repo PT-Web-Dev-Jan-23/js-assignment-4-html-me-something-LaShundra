@@ -53,6 +53,24 @@ h3{
     margin: 5px;
 }
 
+hr{
+    height: .6rem;
+    background-color: lawngreen;
+    border: none;
+    margin: 20px 0px 10px;
+}
+a{
+    color: blue;
+    font-weight: 700;
+    font-size: 14;
+    text-decoration: none;
+}
+a:hover{
+    color: black !important;
+}
+a:visited{
+    color: brown;
+}
 
 p{
     text-align:center;
